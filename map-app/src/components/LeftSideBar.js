@@ -10,9 +10,11 @@ function LeftSideBar({ lnglat, setLnglat }) {
     const featureCollection = useSelector((state) => state.featureCollection)
     const features = featureCollection[0].features
     const [name, setName] = useState([])
+
     const [open, setOpen] = useState(true)
 
     const { t } = useTranslation();
+
     return (
         <>
             <button
@@ -63,6 +65,9 @@ function LeftSideBar({ lnglat, setLnglat }) {
 
                         <div className="left-sidebar-mid">
                             <text> {t('SimilliarPlace.1')}</text>
+                            {/* <button
+                                style={{ backgroundColor: '#06817c', border: 'none', cursor: 'pointer', borderRadius: '5px', height: 'fit-content', width: 'fit-content', color: '#ffffff', fontSize: '0.rem' }}
+                            > + Add Point</button> */}
                         </div>
 
                         <div className="left-sidebar-bottom">

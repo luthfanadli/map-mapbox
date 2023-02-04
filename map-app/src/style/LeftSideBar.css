@@ -1,8 +1,8 @@
 .left-side-bar {
   position: fixed;
   z-index: 9999;
-  max-width: 25%;
-  min-width: 25%;
+  max-width: 26%;
+  min-width: 26%;
   height: 100%;
   top: 100px;
   overflow: hidden;
@@ -39,7 +39,9 @@
   font-weight: 500;
   font-size: large;
   min-height: 5%;
-  display: block;
+  /* display: block; */
+  width: 100%;
+  justify-content: space-between;
 }
 
 .left-sidebar-bottom {

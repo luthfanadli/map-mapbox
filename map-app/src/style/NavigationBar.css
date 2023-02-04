@@ -28,7 +28,8 @@
   align-items: center;
   flex-direction: row;
   width: 50%;
-  gap: 4rem;
+  gap: 3rem;
+  margin: 2rem;
 }
 
 .navbar-bvt-image {
